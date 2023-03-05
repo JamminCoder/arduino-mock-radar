@@ -35,7 +35,7 @@ void loop() {
   Serial.print(cm);
   Serial.println(" cm.");
 
-  delay(clamp(0, duration, 2000));
+  delay(clamp(0, duration / 2, 2000));
 }
 
 
